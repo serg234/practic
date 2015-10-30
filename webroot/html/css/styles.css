@@ -1,0 +1,22 @@
+body {
+    font-family: arial, 'Times New Roman', Helvetica, sans-serif; 
+    font-size: 100%;
+    background: url("../img/bg.png") repeat-x #dcd24e; 
+} 
+
+
+
+#header table {
+    padding-bottom: 10px;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+#logo img {
+    width: 300px;
+}
+
+#text-logo  {
+    text-align: center;
+    width: 100%;
+}

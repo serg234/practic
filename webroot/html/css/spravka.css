@@ -1,0 +1,57 @@
+/*Style */
+
+p {
+    font-family: arial, 'Times New Roman', Helvetica, sans-serif; 
+    font-size: 100%;
+    font-weight: bold;
+    font-style: italic;
+    text-indent: 12px; /*Отступ абзац */
+}
+
+
+#main,main2 { /* for id = main 'and' id = main2 */
+    background-color: #fff; 
+}
+
+body {
+    font-family: arial, 'Times New Roman', Helvetica, sans-serif; 
+    background-color: #cc33ff
+}
+
+
+#text{
+    width: 100px;
+}
+
+#submit{
+    width: 200px;
+    background-color: red;
+    color:blue;
+}
+
+div { /* for all div element */
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto 10px;
+    background-color: #bbb; 
+}
+
+div div { /* for latest div */
+    background-color: #bbb; 
+}
+
+div p {/* for p in div */
+    font-size: 120%;
+}
+
+.head { /* for class = "head" */
+    background-color: #ddd;
+}
+
+a:active{
+    color: red;
+}
+a:hover{
+    color: purple;
+}
