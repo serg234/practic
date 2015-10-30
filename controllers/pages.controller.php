@@ -74,9 +74,9 @@ class PagesController extends Controller{
       
         $prd ='слово_1 слово_2 слово_3';
 
-       $rest = substr($prd, -1);
+        $rest = substr($prd, -1);
         $prd = str_replace($rest, '<br />', $prd);
-        $prd .= str_replace('<br /><br />', '', $prd);
+        $prd = str_replace('<br /><br />', '', $prd);
         echo $prd;
         exit;
          
