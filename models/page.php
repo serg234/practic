@@ -63,4 +63,20 @@ class Page extends Model{
         return $this->db->query($sql);
     }
 
+    public function test(){
+        $sql = 'INSERT INTO test (txt) VALUES';
+       // $sql = 'SELECT txt FROM test';
+        for ($i = 0; $i< 5; $i++){
+            $sql .= "($i),"; 
+        }
+        $sql = substr($sql,0,-1);
+         
+        
+         $data = $this->db->query($sql);
+        
+         exit("ok!");
+    }
+    
+    
+    
 }

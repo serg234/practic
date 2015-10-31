@@ -6,8 +6,15 @@ p {
     font-weight: bold;
     font-style: italic;
     text-indent: 12px; /*Отступ абзац */
+    line-height: 125%; /*Высота строки */
+    text-decoration: underline; /* подчеркнуть текст */
+    
+    
 }
-
+div {
+    margin: 10px auto 0; /* сверху 10, по ценнтру отн. родителя, снизу 0 */
+    width: 30%;
+}
 
 #main,main2 { /* for id = main 'and' id = main2 */
     background-color: #fff; 
@@ -15,7 +22,7 @@ p {
 
 body {
     font-family: arial, 'Times New Roman', Helvetica, sans-serif; 
-    background-color: #cc33ff
+    background: url(image/) no-repeat left bottom red;
 }
 
 
@@ -55,3 +62,12 @@ a:active{
 a:hover{
     color: purple;
 }
+
+  <div id="header">
+            <table>
+                <tr>
+                    <td id="logo"> <img src="img/logo.png" alt="logo"> </td> 
+                    <td id ="text-logo"> <h1> Блочная верстка </h1> </td>
+                </tr>
+            </table>
+        </div>

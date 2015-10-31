@@ -71,10 +71,18 @@ class PagesController extends Controller{
 
 
      public function test(){
-      
+         $result = $this->model->test();
          
-
+         /*
+         for($i = 0; $i < 10000; $i++) {
+             
+             $sql .= 
+             
+         }
+         */
         
+             exit;
+         
        
          
     }
@@ -84,4 +92,4 @@ class PagesController extends Controller{
     
     
     
-            }
+}
