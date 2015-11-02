@@ -6,23 +6,116 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Verstka text </title>
+        <title>Вертска сайта </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/stl.css" >
+        <link rel="stylesheet" type="text/css" href="css/styles.css" >
     </head>
     <body>
-      
-        
-        <div id="header1">Шапка</div>
-        
-        <div id="content">
-            <div id="left" >Левая часть</div>
-            <div id="right">Правая часть</div>
-            <div id="center">Центр</div>
+        <div id="logo" >
+            <table>
+                <tr>
+                    <td>
+                        <img src="images/logo.jpg" alt="logo">
+                    </td>
+                    <td class="right">
+                        <p class="gray">
+                            For Addition information, Contact us!
+                        </p>
+                        <p class="green" >
+                            info@memostra.com
+                        </p>
+                    </td>
+                </tr>
+            </table>
         </div>
         
-        <div id="footer">Подвал</div>
+        <div id="topmenu">
+            <ul>
+                <li class="active" ><a href="#"><span>Home</span></a></li>
+                <li><a href="#"><span>About</span></a></li>
+                <li><a href="#"><span>Clothing</span></a></li>
+                <li><a href="#"><span>Shoes</span></a></li>
+                <li><a href="#"><span>Electronics</span></a></li>
+                <li><a href="#"><span>Parfumes</span></a></li>
+                <li><a href="#"><span>Contact Us</span></a></li>
+            </ul>
+            <div id="contacts">
+                <a href="#">
+                    <img src="images/mail.jpg" alt="to_mail">
+                </a>               
+                <a href="#">
+                    <img src="images/facebook.jpg" alt="facebook">
+                </a>
+            </div>
+            <div class="clear"></div>
+        </div>
+        
+        <div id="header">
+            <img src="images/header.jpg" alt="header" > 
+            <div id="content_header">
+                <h1>Welcome to Mostra!</h1>
+                <h3>Quality Products - Great prices!</h3>
+                <p>
+                    <a href="#">
+                        <span>Check it out</span>
+                    </a>
+                </p>
+            </div>
+        </div>
+        
+        <div id="menu">
+            <table>
+                <tr>
+                    <td class="left">
+                        <table>
+                            <tr>
+                                <td class="active" >
+                                    <a href="#">
+                                        <span>All Categories</span>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <span>Man</span>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <span>Women</span>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="right">
+                        <div id="search" >
+                            <form name="searchform" action="#" method="post">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                <input type="text" name="words" value="Browse products" >
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <input type="image" src="images/search.jpg">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+           
+        </div>
+        <div class="separator">
+            
+        </div>
+        
+     
+        
     
     
     </body>

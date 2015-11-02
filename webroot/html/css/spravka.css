@@ -8,8 +8,7 @@ p {
     text-indent: 12px; /*Отступ абзац */
     line-height: 125%; /*Высота строки */
     text-decoration: underline; /* подчеркнуть текст */
-    
-    
+    vertical-align: top; /* Для таблиц текс вверх */    
 }
 div {
     margin: 10px auto 0; /* сверху 10, по ценнтру отн. родителя, снизу 0 */
@@ -63,11 +62,4 @@ a:hover{
     color: purple;
 }
 
-  <div id="header">
-            <table>
-                <tr>
-                    <td id="logo"> <img src="img/logo.png" alt="logo"> </td> 
-                    <td id ="text-logo"> <h1> Блочная верстка </h1> </td>
-                </tr>
-            </table>
-        </div>
+  

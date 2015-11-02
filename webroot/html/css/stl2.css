@@ -1,0 +1,68 @@
+body {
+    background: url("../img/bg.png") repeat-x #dcd24e;
+    font-family: arial, 'Times New Roman', Helvetica, sans-serif; 
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+    
+} 
+
+
+#header table{
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+    width: 100%;
+    
+}
+
+#logo img {
+    width: 300px;
+}
+
+#text-logo{
+    text-align: center;
+    width: 100%;
+}
+
+#content {
+    border-bottom: 1px solid black;
+}
+#content p:first-letter {
+    color: red;
+    font-size: 170%;
+} 
+#left {
+    border-right: 1px solid black;
+    float: left;
+    width: 200px;
+}
+
+#left h2 {
+    margin: 0;
+}
+
+
+#left ul {
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+
+#left li {
+    list-style: none;
+}
+
+#left a:link, #left a:visited {
+    color:#00f;
+} 
+  
+#right {
+    border-left: 1px solid black;
+    margin-left: 200px;
+    padding-left: 10px;
+   
+}
+
+#footer p {
+    text-align: center;
+}
