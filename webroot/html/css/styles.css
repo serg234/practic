@@ -184,7 +184,68 @@ body{
 
 .separator {
     border-top: 1px dashed #b6c6dd;
-    margin-top: 15px;
+    margin: 15px 0px;
     height: 1px;
     width: 100%;
+}
+
+
+#products table {
+    width: 100%;
+}
+
+#products table table {
+    width: auto;
+}
+
+#products .center table {
+    margin: 0 auto;
+    
+}
+
+#products .right {
+    float: right;
+    text-align: left;
+    
+    
+}
+
+#products p {
+    margin: 5px 0;
+}
+
+#products .title {
+    color: #3b638f;
+    font-weight: bold;
+}
+
+#products .image {
+    border: 1px solid #cde1f1;
+    text-align: center;
+}
+
+#products .image div {
+    border: 9px solid #e2ecf4;
+}
+
+#products .image img{
+    height: 290px;
+    width: 290px;
+    margin-bottom: -2px;
+}
+
+#products .price, #products .cod{
+    font-weight: bold;
+}
+
+#products .price span {
+    color: #669048;
+}
+
+#products .cod {
+    text-align: right;   
+}
+
+#products .cod span {
+    color: #676767; 
 }
