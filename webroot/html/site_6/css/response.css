@@ -1,0 +1,1065 @@
+
+
+@media screen and (max-width:639px){
+
+    .top-menu ul {
+        background-color: #2a2a2a;
+        color: #999999;
+        display: none;
+        margin-left: 3%;
+        margin-top: 3%;
+        min-width: 297px;
+        padding: 0;
+        position: absolute;
+    }
+
+    .top-menu ul li {
+        padding: 10px 38px;
+        margin: 0;
+        clear:both;
+    }
+
+    .top-menu ul li:hover {
+        background-color: #343434;
+        width: 100%;
+        border: 0;
+        padding-top: 10px;
+    }
+
+    .top-menu-icon {
+        display: block;
+        margin-left: 48px;
+        margin-top: 4px;
+    }
+
+    #nav-menu {
+        width: 180px;
+    }
+
+    #page2 {
+
+        background-position: 21% 50%;
+    }
+
+
+
+
+    #page3 div {
+        font-size: 18px;
+        margin-left: 9%;
+        top: 10%;
+        width: 200px;
+    }
+
+    #page3 div p:nth-child(2) {
+        font-size: 16px;
+    }
+
+    #page3 p:last-child {
+        font-size: 34px;
+        line-height: 0.8;
+    }
+
+    #page4 div {
+        font-size: 36px;
+        left: 25%;
+        top: 34%;
+        width: 300px;
+    }
+
+    #page4 p:nth-child(2) {
+        font-size: 40px;
+    }
+
+    #page4 p:last-child {
+        font-size: 63px;
+        line-height: 0.8;
+    }
+
+
+}
+
+
+
+@media screen and (max-height: 370px) and (min-width: 479px) and (max-width:640px) {
+
+
+    #nav-menu {
+        width: 180px;
+    }
+
+    #nav-menu .nav-item {
+        margin: 2px;
+    }
+
+    #page6, #page10, #page11 {
+        background-size:auto 100%;
+    }
+
+    #page1 > p {
+
+        font-size: 18px;
+        padding-right: 6%;
+        padding-top: 6%;
+        text-align: right;
+    }
+
+    #page1 > p:nth-child(2) {
+        font-size: 28px;
+        padding-right: 2%;
+
+    }
+
+    #page2 p {
+        font-size: 12px;
+        line-height: 1;
+        padding-right: 15px;
+        text-align: right;
+    }
+
+
+    .first-col div:first-child {
+        font-size: 72%;
+        width: 71%;
+    }
+
+    .first-col div:nth-child(2) {
+        margin-left: 8.8%;
+        margin-top: 30.5%;
+        width: 88.2%;
+    }
+
+    .first-col p {
+        font-size: 9px;
+    }
+
+    .second-col > div, .third-col > div, #page15 .first-col > div:first-child {
+        top: 44%;
+    }
+
+    .second-col > div span, .third-col > div span, #page15 .first-col > div:first-child span {
+        font-size: 54%;
+        right: -16%;
+        top: -65%;
+    }
+
+    .third-col > div span {
+
+        right: -73%;
+    }
+
+    #page3 div {
+        font-size: 18px;
+        margin-left: 60%;
+        width: 200px;
+    }
+
+    #page3 div p:nth-child(2) {
+        font-size: 16px;
+    }
+
+    #page3 p:last-child {
+        font-size: 34px;
+        line-height: 0.8;
+    }
+
+    #page4 div {
+        font-size: 36px;
+        top: 30%;
+        width: 300px;
+    }
+
+    #page4 p:nth-child(2) {
+        font-size: 40px;
+    }
+
+    #page4 p:last-child {
+        font-size: 63px;
+        line-height: 0.8;
+    }
+
+}
+
+
+@media screen and (min-height: 480px) and (max-width:640px) {
+
+    .top-menu ul {
+
+        margin-top: 6%;
+    }
+
+    #nav-menu {
+        width: 280px;
+    }
+
+    #nav-menu .nav-item {
+        margin: 6px;
+    }
+
+    #page1, #page6 {
+
+     background-position: 50% 50%;
+
+    }
+
+    .top-menu-icon {
+        margin-top: 8%;
+    }
+
+    #page2 p {
+
+        font-size: 17px;
+        padding-left: 23%;
+        padding-top: 4%;
+        line-height: 1;
+    }
+
+
+    #page3, #page4, #page6, #page8, #page9, #page10, #page11 {
+
+        background-size: auto 100%;
+    }
+
+    .first-col, .second-col, .third-col{
+        height:33.3%;
+        width:100%;
+        min-height: 33.3%;
+    }
+
+
+    .second-col, .third-col, #page15 .first-col {
+        background-size: 30%;
+        background-position: center 63%;
+    }
+
+    .first-col div:nth-child(2) p {
+        float: left;
+        font-size: 10px;
+        line-height: 1.2;
+        margin: 2px;
+    }
+
+    .first-col div:first-child {
+        font-size: 12px;
+    }
+
+    .first-col div:nth-child(2) {
+        margin: 0 auto auto;
+        width: 100%;
+    }
+
+
+    .second-col > div p, .third-col > div p, #page15 .first-col > div p {
+        font-size: 12px;
+        height: 100%;
+    }
+
+    .second-col > div p, .third-col > div p,
+    #page15 .first-col > div p {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .second-col > div img,
+    .third-col > div img,
+    #page15 .first-col > div:first-child img {
+        height: 100%;
+        width: auto;
+    }
+
+    .second-col, .third-col, #page15 .first-col {
+        background-size: 30%;
+        background-position: center 63%;
+    }
+
+    .second-col > div, .third-col > div, #page15 .first-col > div:first-child {
+        height: 15.5%;
+        left: 4%;
+        top: 37%;
+        width: 100%;
+    }
+
+    .second-col > div span, .third-col > div span, #page15 .first-col > div:first-child span {
+        font-size: 110%;
+        position: absolute;
+        right: -3%;
+        top: -66%;
+    }
+
+
+}
+
+@media screen and (max-width: 730px) {
+
+    .top-menu {
+        font-weight: bold;
+        font-size:12px;
+    }
+
+    .top-menu ul li {
+        margin: 6px 2% 6px 6px;
+    }
+
+    .head a > img {
+        margin-right: 0;
+    }
+}
+
+
+@media screen and (max-height: 480px) and (min-width: 640px) and (max-width:800px) {
+
+
+    .top-menu {
+        font-weight: bold;
+        font-size:11px;
+    }
+
+    .head a > img {
+        margin-right: -1%;
+    }
+
+    #page1 > p {
+
+        font-size: 18px;
+    }
+
+    #page1 > p:nth-child(2) {
+
+        font-size: 30px;
+    }
+
+    #page2 p {
+
+        font-size: 15px;
+    }
+
+    .second-col > div span, .third-col > div span, #page15 .first-col > div:first-child span {
+        font-size: 69%;
+        right: -30%;
+        top: -50%;
+    }
+
+    .third-col > div span {
+        right: -64%;
+    }
+
+    .first-col div:first-child {
+        font-size: 69%;
+    }
+
+    .first-col p {
+        font-size: 55%;
+    }
+
+
+    #page3 div {
+        font-size: 23px;
+    }
+
+    #page3 div p:nth-child(2) {
+
+        font-size: 20px;
+    }
+
+    #page3 p:last-child {
+        font-size: 42px;
+        line-height: 0.8;
+    }
+
+    #page4 div {
+
+        font-size: 28px;
+        top: 30%;
+
+    }
+
+    #page4 p:nth-child(2) {
+        font-size: 32px;
+    }
+
+    #page4 p:last-child {
+        font-size: 51px;
+        line-height: 0.8;
+    }
+
+
+
+}
+
+@media screen and (min-height: 670px)and (max-height: 765px) and (min-width: 1270px) and (max-width: 1280px){
+
+    #page3 div{
+        width:450px
+    }
+
+    .first-col div:first-child {
+        width: 55%;
+    }
+}
+
+
+@media screen and  (max-height: 750px) and (min-width: 1334px){
+
+    .head {
+        height: 134px;
+    }
+
+    body{
+        min-height: 750px;
+        max-height: 750px;
+        height: 750px;
+    }
+
+    section {
+        margin-top: 134px;
+        height: 615px;
+        max-height: 615px;
+        min-height: 615px;
+    }
+
+    .second-col, .third-col, .first-col  {
+        height: 615px;
+        min-height: 615px;
+        position: relative;
+        width: 33.3%;
+    }
+
+    .second-col > div span, .third-col > div span,
+    #page15 .first-col > div:first-child span {
+
+        font-size: 110%;
+        top: -33%;
+    }
+
+    .first-col div:first-child {
+        font-size: 18px;
+
+    }
+
+    /* page 6 , 7 */
+
+    #page3 div, #page4 div {
+        font-size: 37px;
+    }
+
+    #page4 div {
+        top: 30%;
+    }
+
+    #page3 p,#page4 p {
+        margin: 0;
+        padding: 0;
+    }
+
+    #page3 div p:nth-child(2){
+        font-size: 33px;
+        color:#2e72b8;
+    }
+
+    #page3 p:last-child {
+        line-height: 1;
+        font-size: 70px;
+    }
+
+    #page4 p:nth-child(2) {
+        font-size:41px;
+    }
+
+    #page4 p:last-child {
+        font-size: 66px;
+    }
+
+    /* end*/
+
+}
+
+@media screen and (min-height:641px) and (min-width:1024px) and (max-width: 1100px ) {
+
+    .head a > img {
+
+        margin-right: 0;
+    }
+
+    .top-menu {
+        font-size: 18px;
+    }
+
+    .top-menu ul li {
+        margin-right: 3%;
+    }
+
+    #page3, #page6, #page8, #page9, #page10, #page11 {
+        background-size: auto 100%;
+    }
+
+    #page1 > p {
+
+        font-size: 35px;
+        padding-right: 7%;
+    }
+
+    #page1 > p:nth-child(2) {
+
+        font-size: 52px;
+        padding-right: 3%;
+        padding-top: 0;
+    }
+
+    .first-col div:first-child {
+        font-size: 22px;
+        width: 59%;
+    }
+
+    .first-col div:nth-child(2) {
+
+        width: 90%;
+    }
+
+    #page3 div {
+        font-size: 31px;
+        width: 320px;
+    }
+
+    #page3 div p:nth-child(2) {
+
+        font-size: 27px;
+    }
+
+    #page3 p:last-child {
+        font-size: 61px;
+        line-height: 0.8;
+    }
+
+    #page4 div {
+        font-size: 37px;
+    }
+
+    #page4 p:nth-child(2) {
+        font-size: 42px;
+    }
+
+    #page4 p:last-child {
+        font-size: 68px;
+    }
+
+    #page2 p {
+
+        font-size: 22px;
+        padding-left: 20%;
+        padding-top: 4%;
+    }
+
+    .second-col > div, .third-col > div, #page15 .first-col > div:first-child {
+        top: 44%;
+
+    }
+
+    .second-col > div span, .third-col > div span, #page15 .first-col > div:first-child span {
+        right: -26%;
+        font-size: 87%;
+        top: -40%;
+    }
+
+}
+
+@media screen and (min-height:800px ) and (max-height: 801px) and (min-width:1280px) and (max-width: 1281px ){
+
+    #page3, #page8, #page9, #page10 {
+        background-size: 100% auto;
+    }
+
+    #page3 p:last-child {
+        font-size: 62px;
+        line-height: 0.8;
+    }
+}
+
+
+@media screen and (min-height:1024px) and (max-height: 1200px) and (min-width:640px) and (max-width: 768px ){
+
+    .head a > img {
+
+        margin-right: 0;
+    }
+
+    .top-menu {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .top-menu ul li {
+        margin-right: 3%;
+    }
+}
+
+@media screen and (min-height:800px) and (min-width: 1279px) and ( max-width: 1365px ) {
+
+    .head a > img {
+        margin-right: 6%;
+    }
+
+    #page6, #page10, #page11 {
+        background-size:auto 100%;
+    }
+
+    #page1 > p {
+        padding-right: 14%;
+    }
+
+    #page1 > p:nth-child(2) {
+
+        font-size: 48px;
+        line-height: 0.8;
+        padding-right: 10%;
+        padding-top: 0;
+    }
+
+    .first-col div:first-child {
+
+        font-size: 24px;
+        width: 59%;
+
+    }
+
+    .first-col p {
+        font-size: 18px;
+    }
+
+    #page3 div {
+        font-size: 32px;
+    }
+
+    #page3 div p:nth-child(2) {
+
+        font-size: 27px;
+    }
+
+    #page3 div p:last-child(2) {
+
+        font-size: 59px;
+    }
+
+    .second-col > div span, .third-col > div span, #page15 .first-col > div:first-child span {
+        font-size: 112%;
+        right: -26%;
+        top: -38%;
+    }
+
+    .third-col > div span {
+        right: -59%;
+    }
+
+    .second-col > div, .third-col > div, #page15 .first-col > div:first-child {
+        top:35%;
+    }
+
+    .second-col, .third-col {
+
+        background-position:  center 39%;
+    }
+
+
+}
+
+@media screen and (min-height: 800px) and (max-height:1024px) and (min-width:480px)
+and (max-width: 768px) {
+    #page1, #page2,  #page6, #page3, #page4,
+    #page8,#page9,#page10, #page11 {
+        background-size:auto 100%;
+    }
+
+    #page1, #page2, #page6, #page4 {
+        background-position: 50% center;
+    }
+
+    #page2 {
+        background-position: 21% center;
+    }
+
+    #page2 p {
+        line-height: 1;
+        padding-left: 4%;
+    }
+
+
+
+    .first-col, .second-col, .third-col{
+        height:33.3%;
+        width:100%;
+        min-height: 33.3%;
+    }
+
+    .first-col div:nth-child(2) p {
+        float: left;
+        font-size: 22px;
+        line-height: 1.2;
+        margin: 2px;
+    }
+
+    .first-col div:first-child {
+        font-size: 24px;
+    }
+
+    .first-col div:nth-child(2) {
+        margin: 0 auto auto;
+        width: 100%;
+    }
+
+    .second-col > div, .third-col > div, #page15 .first-col > div{
+        height: 15.5%;
+    }
+
+    .second-col > div p, .third-col > div p, #page15 .first-col > div p {
+        font-size: 12px;
+        height: 100%;
+    }
+
+    .second-col > div p, .third-col > div p,
+    #page15 .first-col > div p {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .second-col > div img,
+    .third-col > div img,
+    #page15 .first-col > div:first-child img {
+        height: 100%;
+        width: auto;
+        margin: 0 0 0 34%;
+    }
+
+    .second-col > div span, .third-col > div span, #page15 .first-col > div:first-child span {
+        font-size: 132%;
+        position: absolute;
+        right: -18%;
+        top: -59%;
+    }
+
+    .third-col > div span {
+
+        right: -64%;
+    }
+
+    .second-col, .third-col, #page15 .first-col {
+        background-size: 30%;
+        background-position: center 63%;
+    }
+
+    #page3 div {
+        font-size: 31px;
+        width: 320px;
+        margin-left: 40%;
+    }
+
+    #page3 div p:nth-child(2) {
+
+        font-size: 27px;
+    }
+
+    #page3 p:last-child {
+        font-size: 61px;
+        line-height: 0.8;
+    }
+
+    #page4 div {
+        font-size: 37px;
+        width: 320px;
+    }
+
+    #page4 p:nth-child(2) {
+        font-size: 42px;
+    }
+
+    #page4 p:last-child {
+        font-size: 68px;
+    }
+}
+
+@media screen and (min-height: 800px) and (max-height:1280px) and (min-width:801px)
+and (max-width: 1000px) {
+    #page1, #page2, #page15, #page6, #page3, #page4,
+    #page8,#page9,#page10, #page11 {
+        background-size:auto 100%;
+    }
+
+    #page1, #page2, #page15, #page6, #page4 {
+        background-position: 50% center;
+    }
+
+    #page2 {
+        background-position: 21% center;
+    }
+
+    #page2 p {
+        line-height: 1;
+        padding-left: 4%;
+    }
+
+    .first-col, .second-col, .third-col{
+        height:33.3%;
+        width:100%;
+        min-height: 33.3%;
+    }
+
+    .first-col div:nth-child(2) p {
+        float: left;
+        font-size: 22px;
+        line-height: 1.2;
+        margin: 2px;
+    }
+
+    .first-col div:first-child {
+        font-size: 24px;
+    }
+
+    .first-col div:nth-child(2) {
+        margin: 0 auto auto;
+        width: 100%;
+    }
+
+    .second-col > div, .third-col > div, #page15 .first-col > div{
+        height: 15.5%;
+    }
+
+    .second-col > div p, .third-col > div p, #page15 .first-col > div p {
+        font-size: 12px;
+        height: 100%;
+    }
+
+    .second-col > div p, .third-col > div p,
+    #page15 .first-col > div p {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .second-col > div img,
+    .third-col > div img,
+    #page15 .first-col > div:first-child img {
+        height: 100%;
+        width: auto;
+        margin: 0 0 0 34%;
+    }
+
+    .second-col > div span, .third-col > div span, #page15 .first-col > div:first-child span {
+        font-size: 132%;
+        position: absolute;
+        right: -18%;
+        top: -44%;
+    }
+
+    .third-col > div span {
+
+        right: -64%;
+    }
+
+    .second-col, .third-col, #page15 .first-col {
+        background-size: 30%;
+        background-position: center 63%;
+    }
+
+    #page3 div {
+        font-size: 31px;
+        width: 320px;
+        margin-left: 40%;
+    }
+
+    #page3 div p:nth-child(2) {
+
+        font-size: 27px;
+    }
+
+    #page3 p:last-child {
+        font-size: 61px;
+        line-height: 0.8;
+    }
+
+    #page4 div {
+        font-size: 37px;
+        width: 320px;
+    }
+
+    #page4 p:nth-child(2) {
+        font-size: 42px;
+    }
+
+    #page4 p:last-child {
+        font-size: 68px;
+    }
+
+}
+
+@media screen  and (min-height: 768px) and (min-width: 1366px){
+
+    .head a > img {
+        margin-right: 10%;
+    }
+
+    .second-col > div span, .third-col > div span, #page15 .first-col > div:first-child span {
+        font-size: 108%;
+        position: absolute;
+        right: -16%;
+        top: -32%;
+    }
+
+    .third-col > div span {
+        right: -45%;
+    }
+
+}
+
+@media screen and (min-height: 1800px) and (max-height:1920px) and (min-width:1080px)
+and (max-width: 1280px){
+
+    #page1, #page2, #page6, #page3, #page4,
+    #page8,#page9,#page10, #page11 {
+        background-size:auto 100%;
+    }
+
+    #page1, #page2, #page6, #page4 {
+        background-position: 50% center;
+    }
+
+    #page2 {
+        background-position: 24% center;
+    }
+
+    #page2 p {
+        line-height: 1;
+        padding-left: 4%;
+    }
+
+    .first-col, .second-col, .third-col{
+        height:33.3%;
+        width:100%;
+        min-height: 33.3%;
+    }
+
+    .first-col div:nth-child(2) p {
+        float: left;
+        font-size: 22px;
+        line-height: 1.2;
+        margin: 2px;
+    }
+
+    .first-col div:first-child {
+        font-size: 31px;
+
+    }
+
+    .first-col div:first-child span {
+        padding-left: 20%;
+    }
+
+    .first-col div:nth-child(2) {
+        margin: 2%  3%;
+        width: 60%;
+    }
+
+    .second-col > div, .third-col > div, #page15 .first-col > div{
+        height: 15.5%;
+    }
+
+    .second-col > div p, .third-col > div p, #page15 .first-col > div p {
+        font-size: 12px;
+        height: 100%;
+    }
+
+    .second-col > div p, .third-col > div p,
+    #page15 .first-col > div p {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .second-col > div img,
+    .third-col > div img,
+    #page15 .first-col > div:first-child img {
+        height: 100%;
+        width: auto;
+        margin: 0 0 0 34%;
+    }
+
+    .second-col > div span, .third-col > div span, #page15 .first-col > div:first-child span {
+        font-size: 132%;
+        position: absolute;
+        right: -18%;
+        top: -22%;
+    }
+
+    .third-col > div span {
+
+        right: -64%;
+    }
+
+    .second-col, .third-col, #page15 .first-col {
+        background-size: 30%;
+        background-position: center 63%;
+    }
+
+    #page3 div {
+        font-size: 56px;
+        width: 540px;
+        margin-left: 40%;
+    }
+
+    #page3 div p:nth-child(2) {
+
+        font-size: 49px;
+    }
+
+    #page3 p:last-child {
+        font-size: 106px;
+        line-height: 0.8;
+    }
+
+    #page4 div {
+        font-size: 100px;
+        width: 540px;
+        top:13%;
+    }
+
+    #page4 p:nth-child(2) {
+        font-size: 114px;
+    }
+
+    #page4 p:last-child {
+        font-size: 182px;
+    }
+
+}
+
+@media (min-height: 1080px) and (min-width: 1920px) {
+
+
+    #page1,#page2 {
+        background-size: auto 100%;
+    }
+
+    .second-col > div, .third-col > div, #page15 .first-col > div:first-child {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        left: initial;
+        top: 41%;
+    }
+
+    .second-col, .third-col, #page15 .first-col {
+        background-position: center;
+    }
+
+    #page1 > p:first-child {
+
+        color:#a8a9ab;
+        padding-right: 25%;
+    }
+
+    #page1 > p:nth-child(2) {
+        font-size: 54px;
+        padding-right:22%;
+    }
+
+    #page4 div {
+        top: 30%;
+
+    }
+
+}

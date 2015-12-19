@@ -1,0 +1,28 @@
+
+<?php if (!isset($_SESSION['regok'])):?>
+<h3>Registration</h3>
+    <form name="reg_form" action="" method="post">
+        <p>Your Name:<input type="text" name="name" value="<?php echo @htmlspecialchars($_POST['name'])?>"></p>
+        
+        <p>Your Login: <input type="text" name="login" value="<?php echo @htmlspecialchars($_POST['login'])?>"></p>
+        <p><?php echo @$data['errors_login'];?></p>
+        <p><?php echo @$data['errors_valid']['login'];?></p>
+        <p>Your Password: <input type="password" name="password"></p>
+        <p><?php echo @$data['errors_valid']['password'];?></p>
+        <p>Your E-mail: <input type="email" name="email" value="<?php echo @htmlspecialchars($_POST['email'])?>"></p>
+        <p><?php echo @$_SESSION['errors']['email'];?></p>
+        
+        
+        <p><input type="submit" name="send" value="Send"></p>
+        
+    </form>
+    
+ <?php 
+else:
+    echo $_SESSION['regok'];
+    unset ($_SESSION['regok']);
+    echo "<p>Вы успешно зарегистрированы</p>";
+endif;
+?>   
+    
+

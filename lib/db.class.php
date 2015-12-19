@@ -33,7 +33,28 @@ class DB{
         }
         return $data;
     }
+    
+     public function last_id(){
+        if ( !$this->connection ){
+            return false;
+        }
 
+        $result = $this->connection->insert_id;
+        
+       
+        
+        if ( mysqli_error($this->connection) ){
+            throw new Exception(mysqli_error($this->connection));
+        }
+
+  
+        return $result;
+    }
+
+    
+    
+    
+    
     public function escape($str){
         return mysqli_escape_string($this->connection, $str);
     }

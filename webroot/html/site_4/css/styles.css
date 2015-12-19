@@ -1,0 +1,224 @@
+
+.clear {
+    clear: both;
+}
+#header {
+    margin: 0 40px 0 40px;
+    background: url(../images/bg_head.png) 100% 100% no-repeat;
+    height: 155px;
+    background-size: cover;
+    font-size: 90%;
+}
+
+#header table {
+    width: 100%;
+}
+
+#header p{
+    color: white;
+    font-size: 400%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+#header span {
+    color: #4c4c4c;
+    font-size: 90%;
+    
+}
+
+#header .left {
+    padding: 0 0 0 20px;
+    
+    height: 155px;
+    vertical-align: middle;
+}
+
+#header .center {
+    vertical-align: top;
+}
+
+#header .center ul {
+    position: relative;
+    top: 17px;
+    right: 20px;  
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#header .center ul li {
+    float: left;
+}
+
+#header .center ul li a{
+    border-right: 1px solid #363636;
+    color: #616161;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 11px 0 11px;
+    
+}
+
+#header .center ul li span a {
+    border:none;
+}
+
+#header .right {
+    color: #6e6e6e;
+}
+
+#header .right ul {
+    position: relative;
+    bottom: 29px;
+    right: 25px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#header .right ul li {
+    
+    margin: 0;
+    float: left;
+}
+
+#header .right ul li a {
+    display:inline-block;
+    text-decoration: none;
+    color: #a9a9a9;
+    padding: 0 10px 0 10px;
+    border-right: 1px solid #363636;
+}
+
+#header .right ul li.icon a {
+    border: none;
+    padding: 0 15px 0 0;
+}
+
+#header .right ul li span a {
+    border: none;
+}
+
+#search {
+     position: relative;
+     bottom: 20px;
+     left: -21px;
+     width: 100%;
+}
+
+
+#search .words{
+    color: #5d5d5d;
+    border-top: 1px solid #121212;
+    border-bottom: 1px solid #292929;
+    border-left: 1px solid #121212;
+    border-right: 1px solid #121212;
+    background-color: #121212;
+    height: 35px;
+    
+    border-radius: 5px;
+   
+}
+
+
+
+#search .button {
+    position: relative;
+    right: 40px;
+}
+
+#search .words input{
+   padding: 0 0 0 10px;
+   color: #5d5d5d;
+   border: none;
+   background-color: #121212;    
+}
+
+#navmenu {
+    margin: 0 40px 0 40px; 
+}
+
+#navmenu ul, #navmenu li {
+  margin: 0;
+  padding: 0;
+}
+
+
+#navmenu ul {
+    text-align: center; /* пункты и текст горизонтально по центру */
+   // background: rgb(46,95,122);
+    
+    background: url(../images/nav_bg.png) 100% 100% repeat-x;
+    background-size: cover;
+    list-style: none;
+    margin: 0;
+    padding: 0;   
+     border-top: 1px solid #474747;
+    border-bottom: 1px solid #161616;
+}
+
+#navmenu ul li {
+    display: inline-block;
+    
+}
+#navmenu ul li a {
+   
+    font-size: 105%;
+    display: block;
+    padding: 12px 5px;
+    color: #9c9c9c;
+    text-decoration: none;
+}
+
+#content {
+    padding: 1px 0 0 0;
+    margin: 0 40px 0 40px;
+    background: url(../images/bg.jpg) 100% repeat-x;
+    background-size: cover;
+    
+}
+
+#content table.all {
+    padding: 0px 0 0 0;
+    margin:  20px 0 0 0;
+    width: 100%;
+    color: #5d5d5d;
+    border: 1px solid red;
+    border-spacing: 65px 0px;
+}
+
+
+
+#content .td_1, #content .td_2, #content .td_3, #content .td_4{
+    border-radius: 10px;
+    border: 1px solid yellow; 
+    padding: 0;
+    margin: 0;
+    
+    //  width: 20%;
+    
+    //text-align: center;
+    
+}
+
+#content table.all div {
+    padding: 5px 5px;
+    background-color: green;
+}
+
+#content .td_1 table.in,#content .td_2 table.in,#content .td_3 table.in,#content .td_4 table.in {
+    margin: 0 auto;
+    
+}
+
+#content table .in {
+ 
+   background-color: red; 
+  
+  border-radius: 10px; 
+ 
+}
+
+
+

@@ -1,0 +1,463 @@
+@font-face {
+    font-family: "Kelson Sans RU"; /* Гарнитура шрифта */
+    src: url(../fonts/Kelson_Sans_Light_RU.ttf); /* Путь к файлу со шрифтом */
+  
+}
+
+@font-face {
+    font-family: "Good Vibes Pro"; /* Гарнитура шрифта */
+    src: url(../fonts/good_vibes_pro_regular.ttf); /* Путь к файлу со шрифтом */
+   
+}
+body {
+    color: #293336;
+    font-family: "Kelson Sans RU" arial, 'Times New Roman', Helvetica, sans-serif; 
+    font-size: 100%;
+    margin: 0px;
+    padding: 0px
+
+}
+
+.clear {
+    clear: both;
+}
+
+#loup {
+margin: 0;
+padding: 0;
+float: left;
+}
+
+#loup p {
+    
+    margin: 0;
+    padding: 0;
+}
+
+#loup a {
+    display: block;
+    margin: 0; 
+    padding-left: 9px;
+    padding-top: 9px;
+}
+
+#search {
+    display: none;
+    position: relative;
+    left: -33px;
+    height: 38px;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    float: left;
+    width: 21%;
+}
+#search p {
+    margin: 0;
+    padding: 0px;
+}
+
+
+#search form {
+    margin-bottom: 1px;
+}
+
+#search .td_input_words input {
+    border: none;
+    bottom: 5px;
+    font-size: 125%;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40px;
+    margin-left: -3px;
+    position: relative;
+    
+    
+}
+
+#search .td_input_button input {
+    margin-left: -2px;
+    position: relative;
+    bottom: 3px;
+}
+
+#header {
+    background-color: #000;
+    height: 43px;
+        
+}
+
+#header ul{
+    margin: 0;
+    padding: 0;
+}
+#header ul li {
+    text-align: right;
+    float: right;
+    list-style: none;
+}
+#header ul li a{
+    
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 12px;
+    padding-left: 20px;
+} 
+
+#header .cart a {
+    background-color: #044f67;
+    padding-top: 0px;
+    padding-bottom: 3px;
+}
+
+#header .contacts a{
+    padding-right: 19px;
+}
+
+#logo {
+    margin-top: 1px;
+    
+    padding: 0px;
+    text-align: center;
+    
+}
+
+.olle {
+    color: #19b5fe;
+    font-family: "Good Vibes Pro";
+    font-size: 920%;
+    padding-right: 12px;
+    
+}
+.home {
+    
+    color: #044f67;
+    font-family: "Crete Round";
+    font-size: 850%;
+   
+}
+
+
+
+
+
+/*TOP MENU DROW */
+#topmenu {
+    margin-top: -36px;
+    margin-bottom: 4px;
+    padding: 0px;
+        
+}
+
+#nav, #nav ul, #nav li {
+  margin: 0;
+  padding: 0;
+}
+
+
+#nav { /* подменю перемещается относительно меню */
+ // position: relative;
+ text-align: center; 
+// display: inline-block;
+  //width: 100%;
+}
+#nav ul { /* подменю находится вне потока */
+  position: absolute;
+  z-index: 5;
+  display: none;
+}
+#nav li:hover ul { /* подменю будет показано, если курсор наведён на пункт меню с выпадающем списком */
+  display: block;
+ 
+}
+
+
+#nav li {
+   display: inline-block;;
+   padding-top: 0px;
+   padding-right: 20px;
+   // text-align: center;
+}
+#nav ul li {
+  display: block;
+  text-align: left;
+}
+#nav .right { /* последнее подменю будет расширяться справа налево */
+  direction: rtl;
+}
+#nav .right ul { /* для IE, решение найдено случайно, где связь ??? */
+  right: 0;
+}
+#nav .right li { /* последнее подменю будет расширяться справа налево, но не пункты последнего подменю */
+  direction: ltr;
+}
+#nav a {
+  display: block;
+  padding: 0px 0;
+  color: #293336;
+  text-decoration: none;
+}
+.nav_name {
+    
+    padding-left: 0px;
+    font-size: 120%;
+}
+#nav li:hover a  {
+    color: #19b5fe;
+}
+#nav ul a {
+  padding: 3px 15px;
+  font-size: 90%;
+}
+#nav ul a:hover {
+ // background: rgb(96,145,172);
+    
+}
+#nav img {
+    display: block;
+    padding-bottom: 3px;
+}
+/*TOP MENU DROW -END- */
+
+
+#nav3 a {
+ display: block;
+ padding: 0px;
+ padding:0px;
+ margin: 0px;
+     
+   color: #fff;
+  text-decoration: none;
+}
+
+#line{
+    border-top: 1px solid #b0afb2;
+}
+
+#content {
+    margin-top: 58px;
+    margin-left: 32px;
+    margin-right: 32px;
+    border-top: 1px solid #b0afb2;
+    
+}
+
+
+
+#h_kroshki ul{
+    margin: 3px 0 0 2px;
+    padding: 0;
+}
+
+#h_kroshki ul li {
+    float: left;
+    list-style: none;
+    
+}
+
+#h_kroshki li a{
+    color: #293336;
+    font-size: 110%;
+    display: block;
+    padding: 8px 5px 0px 0px;
+    text-decoration: none;
+}
+
+
+#content table.all {
+    margin-top: 5px;
+   
+    width: 100%
+}
+
+
+#content_left {
+    position: relative;
+    left: -2px;
+    vertical-align: top;
+    background-color: #a4a5a5;
+    margin: 0px;
+    padding: 0px;
+    width: 26%;
+}
+
+#content_right {
+    vertical-align: top;
+    position: relative;
+    left: 6px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#select{
+    margin-top: 0px;
+    margin-left: 10px;
+    float: left;
+}
+
+#pagination {
+    //border: 1px solid blue;
+    float: right;
+}
+
+#pagination ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
+ #pagination ul li {
+     float: left;
+ }
+ #pagination ul li a {
+     padding-left: 5px;
+     text-decoration: none;
+     color: black;
+     font-family: "Kelson Sans RU";
+     font-size: 100%;
+ }
+ #pagination .active a, #pagination a:hover {
+    //background-color: #e2ecf4;
+    color: #19b5fe;
+}
+
+#pagination .first a {
+    padding-left: 10px;
+}
+
+#pagination .pag_r {
+    padding-left: 5px;
+}
+
+#products {
+     border-top: 1px solid #b0afb2;
+     margin: 10px 0 0 0;
+     padding: 0px;
+         
+}
+
+#products .price p {
+    font-weight: bold;
+}
+
+#products table {
+    margin: 10px 0 0 0;
+    width: 100%;
+}
+
+#products .center table {
+   
+    padding-left: 0px;
+}
+
+#products .left table {
+    position: relative;
+    left: -5px;
+    padding-left: 0px;
+}
+
+#products .right table {
+    position: relative;
+    right: -5px;
+    padding-left: 0px;
+}
+
+#products img {
+    width: 100%;
+}
+
+#products .right img {
+   
+}
+#products p {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kelson Sans RU";
+    color: #555b5d;
+}
+
+#products a {
+    display: inline-block;
+    background-color: #044f67;
+    padding: 3px 12px;
+    color: white;
+    font-family: "Kelson Sans RU";
+    font-size: 90%;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+#products .buy {
+    
+    text-align: right;
+}
+
+#products table .add_prod a{
+    display: block;
+    padding: 2% 30%;
+    background-color: #eb455d;
+    border-radius: 0px; 
+    font-family: "Kelson Sans RU";
+    font-size: 120%;
+    font-weight: bold;
+    color:black;
+}
+
+#products .add_prod {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#footer {
+    position: relative;
+    bottom: 2px;
+    border-top: 1px solid #b0afb2;
+   // margin-left: 32px;
+   // margin-right: 32px;
+    margin: 0 32px 0 32px;
+   // width: 100%;
+    font-size: 100%;
+    font-family: "Kelson Sans RU";
+}
+#footer table {
+    width: 100%;
+}
+
+#footer table .left{
+    vertical-align: top;
+}
+#footer table .right{
+    vertical-align: top;
+    text-align: right;
+    
+}
+
+#footer table .right img {
+    width: 481px;
+    // width: 55%
+}
+
+#footer p {
+    margin: 5px 0;
+    padding: 0;
+}
+
+#footer a {
+    text-decoration: none;
+    color:black;
+}
+
+#footer div a {
+    padding-left: 5px;
+}
+
+#footer .copy_r {
+    font-size: 80%;
+}
+
+#footer .retro {
+    padding: 25px 0 0 0;
+   
+}
+

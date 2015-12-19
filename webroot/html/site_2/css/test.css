@@ -1,0 +1,50 @@
+.clear {
+    clear: both;
+}
+#topmenu ul {
+    border: 1px solid black;
+    list-style: none;
+   // margin: 5px;
+    padding: 0px;
+}
+
+#topmenu ul li {
+    border: 1px solid red;
+    margin: 10px;
+    padding: 0px;
+    display: inline-block;
+    float:left;
+}   
+
+#topmenu a {
+  // display: block;
+   display: inline-block;
+  color: yellow;
+   background-color: red;
+   margin: 10px 10px;
+  // padding: 20px 20px;
+   text-decoration: none; 
+}
+
+#topmenu ul ul li a:hover {
+    color: white;
+}
+
+#topmenu ul li a.top:hover {
+    color: greenyellow;
+}
+
+#topmenu ul ul {
+     //clear: both;
+     //display: inline-block;
+     display: none;
+}
+
+#topmenu ul ul {
+   
+}
+
+#topmenu ul li:hover ul {
+    clear: both;
+    display: block ;
+}

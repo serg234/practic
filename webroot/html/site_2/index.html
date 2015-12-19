@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>OlleHOME main</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/styles.css" >
+        <link href="css/examples.css" rel="stylesheet" type="text/css" />
+	<link href="css/cusel.css" rel="stylesheet" type="text/css" />
+
+    </head>
+    
+    <body>
+        <div id="header">
+            <div id="loup" onmouseover="search.style='display:block;'">
+                <p>
+                    <a href="#">
+                        <img src="images/loop.png" alt="search">
+                    </a>
+                </p>
+            </div>
+            <div id="search" onmouseout="search.style='display:none;'">
+                <form name="searchform" action="#" method="post">
+                    <table>
+                        <tr>
+                            <td class="td_input_words">
+                                <input type="text" name="words">
+                            </td>
+                            <td class="td_input_button">
+                                <input type="image" width="48" height="42" src="images/loop_act.jpg" alt="search">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <ul>
+                <li class="cart"><a href="#"><span>Ваш Заказ<br>0.00 грн (пусто)</span></a></li>
+                <li class="contacts"><a href="#"><span>Контакты</span></a></li>
+                <li><a href="#"><span>Доставка и оплата</span></a></li>
+            </ul>
+            
+        </div>
+        <div class="clear"></div>
+        <div id="logo">
+           
+            <span class="olle">olle</span><span class="home">HOME</span>
+    
+        </div>
+        <div class="clear"></div>
+        <div id="topmenu">
+            <ul id="nav">
+                
+                <li class="nav_name" ><a href="#2"><span>ГОСТИНАЯ</span></a>
+                <ul>
+                    <li><a href="#2-1"><span>Пункт 1</span></a></li>
+                    <li><a href="#2-2"><span>Пункт 2</span></a></li>
+                    <li><a href="#2-3"><span>Пункт 3</span></a></li>
+                    
+                </ul> 
+                </li>
+                <li><img src="images/mark.png" alt="*"> </li>
+                <li class="nav_name"><a href="#3"><span>КУХНЯ</span></a>
+                <ul>
+                    <li><a href="#2-1"><span>Пункт 1</span></a></li>
+                    <li><a href="#2-2"><span>Пункт 2</span></a></li>
+                    <li><a href="#2-3"><span>Пункт 3</span></a></li>
+                </ul>
+                </li>
+                <li><img src="images/mark.png" alt="*"> </li>
+                <li class="nav_name"><a href="#4"><span>СПАЛЬНЯ</span></a>
+                <ul>
+                    <li><a href="#2-1"><span>Постельное бельё</span></a></li>
+                    <li><a href="#2-2"><span>Подушки</span></a></li>
+                    <li><a href="#2-3"><span>Покрывала</span></a></li>
+                </ul>
+                </li>
+                <li><img src="images/mark.png" alt="*"> </li>
+                <li class="nav_name"><a href="#4"><span>ДЕТСКАЯ</span></a>
+                <ul>
+                    <li><a href="#2-1"><span>Пункт 1</span></a></li>
+                    <li><a href="#2-2">Пункт 2</a></li>
+                    <li><a href="#2-3">Пункт 3</a></li>
+                </ul>
+                </li>
+                <li><img src="images/mark.png" alt="*"> </li>
+                <li class="nav_name"><a href="#4"><span>ВАННАЯ</span></a>
+                <ul class="right" >
+                    <li><a href="#2-1"><span>Пункт 1</span></a></li>
+                    <li><a href="#2-2"><span>Пункт 2</span></a></li>
+                    <li><a href="#2-3"><span>Пункт 3</span></a></li>
+                </ul>
+                </li>
+                
+                
+            </ul>
+        </div>
+        <div class="clear"></div>
+        <div id="line" ></div>
+        <div id="content">
+            <div id="h_kroshki">
+                <ul>
+                    <li><a href="#2-1"><span>Главная »</span></a></li>
+                    <li><a href="#2-1"><span>cпальня »</span></a></li>
+                    <li><a href="#2-1"><span>постельное белье</span></a></li>
+                </ul>
+            </div>
+            <div class="clear">
+                
+            </div>
+            <table class="all">
+                    <tr>
+                        <td id="content_left" >
+                            
+                                <p>БРЕНД</p>
+                                <p>Аааа</p>
+                                <p>Бббб</p>
+                                <p>Вввв</p>
+                                <br>
+                                <br>
+                                <p>Тип</p>
+                                <p>Аааа</p>
+                                <p>Бббб</p>
+                                <p>Вввв</p>
+                                <br>
+                                <br>
+                                <p>Ткань</p>
+                                <p>Аааа</p>
+                                <p>Бббб</p>
+                                <p>Вввв</p>
+                            
+                        </td>
+                        <td id="content_right">      
+                            <div id="select">
+                                <select>
+                                    <option value="volvo">по популярности</option>
+                                        <option value="saab">по цене</option>
+                                </select>
+                            </div>
+                            <div id="pagination">
+                                <ul>
+                                    <li class="pag_l"><a href=""><img src="images/pag_l.jpg"></a></li>
+                                    <li class="active first" ><a  href="">1</a></li>
+                                    <li><a href="">2</a></li>
+                                    <li><a href="">3</a></li>
+                                    <li><a href="">...</a></li>
+                                    <li><a href="">7</a></li>
+                                    <li class="pag_r" ><a href=""><img src="images/pag_r.jpg"></a></li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+                            
+                            <div id="products">
+                                <table>
+                                    <tr>
+                                        <td class="left">
+                                            <table>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <img src="images/product.jpg" alt="img_prod">      
+                                                    </td> 
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <p>Мягкая игрушка</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <p>HandMade</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="price">
+                                                        <p>150грн</p>
+                                                    </td>
+                                                    <td class="buy" >
+                                                        <a href="#">Купить</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>    
+                                        <td class="center">
+                                           <table>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <img src="images/product.jpg" alt="img_prod">      
+                                                    </td> 
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <p>Мягкая игрушка</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <p>HandMade</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="price">
+                                                        <p>150грн</p>
+                                                    </td>
+                                                    <td class="buy">
+                                                        <a href="#">Купить</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>    
+                                        <td class="right">
+                                            <table>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <img src="images/product.jpg" alt="img_prod">      
+                                                    </td> 
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <p>Мягкая игрушка</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <p>HandMade</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="price">
+                                                        <p>150грн</p>
+                                                    </td>
+                                                    <td class="buy">
+                                                        <a href="#">Купить</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>    
+                                    </tr> 
+                                    <tr>
+                                        <td class="left">
+                                            <table>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <img src="images/product.jpg" alt="img_prod">      
+                                                    </td> 
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <p>Мягкая игрушка</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <p>HandMade</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="price">
+                                                        <p>150грн</p>
+                                                    </td>
+                                                    <td class="buy">
+                                                        <a href="#">Купить</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>    
+                                        <td class="center">
+                                            <table>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <img src="images/product.jpg" alt="img_prod">      
+                                                    </td> 
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <p>Мягкая игрушка</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <p>HandMade</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="price">
+                                                        <p>150грн</p>
+                                                    </td>
+                                                    <td class="buy">
+                                                        <a href="#">Купить</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>    
+                                        <td class="right">
+                                            <table>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <img src="images/product.jpg" alt="img_prod">      
+                                                    </td> 
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <p>Мягкая игрушка</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <p>HandMade</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="price">
+                                                        <p>150грн</p>
+                                                    </td>
+                                                    <td class="buy">
+                                                        <a href="#">Купить</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>    
+                                    </tr> 
+                                    <tr>
+                                        <td class="left">
+                                            <table>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <img src="images/product.jpg" alt="img_prod">      
+                                                    </td> 
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <p>Мягкая игрушка</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <p>HandMade</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="price">
+                                                        <p>150грн</p>
+                                                    </td>
+                                                    <td class="buy">
+                                                        <a href="#">Купить</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>    
+                                        <td class="center">
+                                            <table>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <img src="images/product.jpg" alt="img_prod">      
+                                                    </td> 
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <p>Мягкая игрушка</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <p>HandMade</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="price">
+                                                        <p>150грн</p>
+                                                    </td>
+                                                    <td class="buy">
+                                                        <a href="#">Купить</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>    
+                                        <td class="right">
+                                            <table>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <img src="images/product.jpg" alt="img_prod">      
+                                                    </td> 
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <p>Мягкая игрушка</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <p>HandMade</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="price">
+                                                        <p>150грн</p>
+                                                    </td>
+                                                    <td class="buy">
+                                                        <a href="#">Купить</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>    
+                                    </tr> 
+                                    <tr>
+                                        <td class="left">
+                                            <table>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <img src="images/product.jpg" alt="img_prod">      
+                                                    </td> 
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <p>Мягкая игрушка</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <p>HandMade</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="price">
+                                                        <p>150грн</p>
+                                                    </td>
+                                                    <td class="buy">
+                                                        <a href="#">Купить</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>    
+                                        <td class="center">
+                                            <table>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <img src="images/product.jpg" alt="img_prod">      
+                                                    </td> 
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <p>Мягкая игрушка</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <p>HandMade</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="price">
+                                                        <p>150грн</p>
+                                                    </td>
+                                                    <td class="buy">
+                                                        <a href="#">Купить</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>    
+                                        <td class="right">
+                                            <table>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <img src="images/product.jpg" alt="img_prod">      
+                                                    </td> 
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" >
+                                                        <p>Мягкая игрушка</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <p>HandMade</p> 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="price">
+                                                        <p>150грн</p>
+                                                    </td>
+                                                    <td class="buy" >
+                                                        <a href="#">Купить</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>    
+                                    </tr> 
+                                    <tr>
+                                        <td class="add_prod" colspan="3">
+                                            <a href="#">добавить еще 2 ряда продукции</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>     
+                        </td>
+                    </tr>
+                    
+            </table>
+        </div>
+        <div id="footer">
+            <table>
+                <tr>
+                    <td class="left">
+                        <p>О НАС<p>
+                         <br>
+                        <p>Команда OlleHOME подбирает для Вас красивые<br>
+                        и качественные вещи для Вашего дома.</p>
+                        <br>
+                        <div>
+                            <a href="#"><img src="images/facebook.jpg" alt="facebook"></a> 
+                            <a href="#"><img src="images/unknown.jpg" alt="unknown"></a> 
+                        </div>
+                        <br>
+                        
+                        
+                        <p><a href="#">Контакты</a><p>
+                        <p><a href="#">Доставка и оплата</a></p>
+                        <p><a href="#">Доставка и оплата</a></p>
+                        <p><a href="#">Гарания и возврат</a></p>
+                        <br>
+                        <br>
+                        
+                        
+                        <div class="bottom">
+                        <p class="copy_r" >&copy; Copyright 2015 OlleHOME. All rights reserved </p>
+                        
+                        <p class="retro"><a href="#"> Рейтинг RetroSales</a></p>
+                        </div>
+                    </td>
+                    <td class="right">
+                         <img src="images/cell.jpg" alt="images">
+                    </td>
+                </tr>
+            </table>
+                
+               
+                
+                
+        </div>
+    </body>
+</html>

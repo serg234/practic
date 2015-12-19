@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Site-7 js</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+       
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script type="text/javascript">
+            
+            
+            
+            function func1(){
+               
+                var op = $("select[name='hero']").val();
+                alert(op);
+                op = parseInt(op);
+                return op;
+            }    
+            
+            
+            var op;
+            function func2(op){
+                
+                var el1 = $("input[name='a']").val();
+              
+               el1 = parseInt(el1);
+                var el2 = $("input[name='b']").val();
+                
+                el2 = parseInt(el2);
+                alert(op);
+                if(op == 1){
+                  var res = el1 + el2;
+                   alert(res);
+               }else if(op == 2){
+                 var res = el1 - el2;
+                   alert(res);
+               }
+            }
+                
+               
+               
+                
+            
+            
+        </script>
+    </head>
+    <body>
+         <script type="text/javascript">
+            $("#draggable").draggable(); // эта строка кода, которая делает элемент перетаскиваемым
+         </script>
+         
+         <div id="draggable" >
+             <p>Перетаскивеммый блок</p>
+         </div>
+        
+        
+        <div id="op">
+            <select onchange="func1()" size="3" multiple name="hero">
+             
+                    <option selected value=1>Сложение</option>
+                    <option value=2>Вычитание</option>
+                    <option value=3>Умножение</option>
+                    <option value=4>Деление</option>
+                </select>
+        </div>
+        <br>
+        <div>
+            <input  type="text" name="a">
+            <br>
+            <input  type="text" name="b">
+            <br>
+            <input type="submit" value="Посчитать" onclick="func2()" >
+        </div>
+        
+        <div id="block">Блок</div>
+	<script type="text/javascript">
+		$("<p>Новый абзац</p>"); // Это уже создание нового элемента
+		$("<p>Новый абзац</p>").insertAfter("#block");
+		$("<p>Новый абзац</p>").insertBefore("#block");
+		$("<p>Новый абзац в блоке</p>").appendTo("#block");
+		$("<p>Новый абзац в блоке</p>").prependTo("#block");
+		
+		var element = $("<p>Очень новый абзац</p>");
+		$("body").append(element);
+	</script>
+        
+        <div id="slider"></div>
+ 
+<script>
+ $( "#slider" ).slider();
+</script>
+
+<div id="test">test</div>
+
+<script>
+  $(document).ready(function(){
+
+    $("#test").click(function () {
+      $("#test").toggle();
+    });
+
+  });
+  </script>
+
+
+
+ <button>Toggle</button>
+  <p>Hello</p>
+  <p style="display: none">Good Bye</p>
+
+
+
+
+
+    </body>
+</html>

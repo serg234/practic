@@ -1,0 +1,129 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+        
+        
+}
+
+#my_container {
+    width: 100%;
+}
+
+.header {
+    background: linear-gradient(180deg, #343434, #151515);
+    border-bottom: solid 1px #fcdda4;
+    padding: 30px 0 30px 0;
+}
+
+#logo {
+    margin: 0 0 0 122px;
+    float: left;
+}
+
+#logo .p_1 {
+    margin: 0;
+    padding: 0;
+    font-size: 150%;
+    display: inline-block;
+    color: #e5e5e5; 
+    font-weight: bold;
+}
+
+#logo .p_1 span {
+    margin: 0;
+    padding: 0;
+    color: #ffa73d;
+}
+
+#logo .p_2 {
+    color: #525252;
+    margin: 0 0 0 50px;
+    padding: 0;
+    position: absolute;
+    bottom: 25px;
+    font-size: 70%;
+}
+
+#phone {
+    margin: 0 122px 0 0;
+    float: right;
+}
+
+#phone p {
+    color: #525252;
+    font-size: 70%;
+}
+
+#topmenu {
+    background: linear-gradient(180deg, #f8bb49, #f7941d);
+   
+    border-bottom: 1px solid #a16013;
+}
+
+#topmenu ul {
+   
+    
+    text-align: center;
+    list-style: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;  
+}
+
+#topmenu li {
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+}
+
+#topmenu a {
+    font-size: 90%;
+   
+    color: #333333;
+    display: block;
+    padding: 7px 10px 7px 10px;
+    text-shadow: 2px 1px 2px #33333;
+}
+
+#topmenu a:hover{
+    background-color: #392a12;
+    border-radius: 5px;
+    box-shadow: 1px 1px 88px 22px #191715 inset;
+    background: linear-gradient(180deg, #f8bb49, #f7941d);
+    color: #ff9d00;
+}
+
+.my_pad{
+    padding: 0;
+        
+}
+
+.main_mnu_button {
+	background-color: transparent;
+	border: medium none;
+	font-size: 26px;
+}

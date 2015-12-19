@@ -8,7 +8,9 @@ class PagesController extends Controller{
     }
 
     public function index(){
-        $this->data['pages'] = $this->model->getList();
+//        $this->data['pages'] = $this->model->getList();
+    
+        
     }
 
     public function view(){
@@ -71,23 +73,54 @@ class PagesController extends Controller{
 
 
      public function test(){
-         $result = $this->model->test();
-         
-         /*
-         for($i = 0; $i < 10000; $i++) {
+        // $result = $this->model->test();
+         function func($a,$b,$c) {
              
-             $sql .= 
+             if($c == 1){
+                 return $a + $b;
+             }elseif($c == 2){
+                 
+             }
+     
+         }
+         
+         $c = 'menu';
+         
+         function func2() {
+             //$a = '<table>';
+             
+             echo " 
+                 <tabel>
+                    <tr> 
+                        <td>
+                           <p>Hi! </p>
+                        </td>
+                        <td>
+                        <p> Go!</p>
+                        </td>
+                    </tr>
+                 <table>
+                "
+             
+             
+             
+             
+             
+             
+            
+             
+             
+             
+             
+             
              
          }
-         */
-        
-             exit;
          
+         func2();
        
+         exit;
          
-    }
-    
-    
+     }
     
     
     
