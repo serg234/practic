@@ -51,6 +51,13 @@ and open the template in the editor.
             
             
         </script>
+    
+        <style>
+  ul { margin-left:20px; color:blue; }
+  li { cursor:default; }
+  span { color:red; }
+  </style>
+        
     </head>
     <body>
          <script type="text/javascript">
@@ -109,14 +116,53 @@ and open the template in the editor.
 
   });
   </script>
-
+  
+  <script>
+  $("#hov p").hover(
+      function () {
+        $(this).append($("<span> ****</span>"));
+      },
+      function () {
+        $(this).css('backgroundColor','blue');
+      }
+    );
+  </script>
+  
+  
 
 
  <button>Toggle</button>
   <p>Hello</p>
   <p style="display: none">Good Bye</p>
 
+  <script>
+  $(document).ready(function(){
 
+    $("li").hover(
+      function () {
+        $(this).append($("<span> ****</span>"));
+      },
+      function () {
+        $(this).find("span:last").remove();
+      }
+    );
+
+  //li with fade class
+   $("li.fade").hover(function(){$(this).fadeOut(100);$(this).fadeIn(500);});
+
+  });
+  </script>
+
+<ul>
+    <li>Milk</li>
+
+    <li>Bread</li>
+    <li class='fade'>Chips</li>
+    <li class='fade'>Socks</li>
+  </ul>
+  
+  
+  
 
 
 
